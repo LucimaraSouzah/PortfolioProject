@@ -13,7 +13,7 @@ li {
 
 li:after {
   display: block;
-  content: '';
+  content: "";
   border-bottom: solid 3px #e0afa0;
   transform: scaleX(0);
   transition: transform 500ms ease-in-out;
@@ -22,4 +22,12 @@ li:after {
 
 li:hover:after {
   transform: scaleX(1);
+}
+
+.active {
+  display: block;
+}
+
+.disabled {
+  display: none;
 }
