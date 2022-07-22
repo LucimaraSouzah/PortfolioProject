@@ -42,18 +42,20 @@ function App() {
           </ul>
         </nav>
       </header>
-      <main className="flex flex-col items-center justify-center lg:flex-row lg:justify-around md:flex-row md:justify-around" >
+      <main className="flex flex-col items-center justify-center lg:flex-row lg:justify-around md:flex-row md:justify-around">
         <section className="flex">
           <div className="flex flex-col text-gray-200 items-center ">
             <h3 className="text-2xl mb-2">Olá 💗 Eu sou </h3>
             <h1 className="text-[#e0afa0] text-6xl mb-5">Lucimara Souza</h1>
-            <p className="text-1xl mb-2 text-[#fa9272]">Dev. FullStack na Avanade Brasil 🧡🚀</p>
+            <p className="text-1xl mb-2 text-[#fa9272]">
+              Dev. FullStack na Avanade Brasil 🧡🚀
+            </p>
           </div>
         </section>
         <img
           src={MyPhoto}
           alt="Foto da Lucimara"
-          className="rounded-3xl lg:w-96 md:w-96 sm:w-80"
+          className="sm:rounded-full rounded-3xl lg:w-96 md:w-96 sm:w-80 sm:p-10"
         />
       </main>
     </div>
