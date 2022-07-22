@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Great+Vibes&family=Ibarra+Real+Nova:wght@500&family=Karma:wght@300;500;700&family=Source+Code+Pro:wght@500&display=swap');
+
+
 body {
   padding: 0;
   margin: 0;
@@ -30,4 +33,16 @@ li:hover:after {
 
 .disabled {
   display: none;
+}
+
+h3 {
+  font-family: 'Karma', serif;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
 }
