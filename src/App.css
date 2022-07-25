@@ -91,16 +91,18 @@ li:hover:after {
   font-family: "Karma", serif;
 }
 
-.divCard:hover .divDescription {
-  opacity: 1;
-  transition: 3s;
-  transition-timing-function: ease-in-out;
+.divCard:hover .divBackground {
+  display: flex;
+  background-color: #eebcae;
+
 }
 
-.imgProjeto:hover .divDescription {
-  opacity: 1;
-  transition: 3s;
-  transition-timing-function: ease-in-out;
+.divBackground:hover .imgProject {
+  display: none;
+}
+
+.divBackground:hover .divDescription {
+  display: flex;
 }
 
 .h1-Project {
@@ -110,3 +112,6 @@ li:hover:after {
 .p-Project {
   font-family: "Comfortaa", cursive;
 }
+
+
+

@@ -124,7 +124,10 @@ function App() {
             className="sm:rounded-full rounded-3xl lg:w-96 md:w-96 sm:w-96 sm:p-10"
           />
         </section>
-        <section className="flex sm:flex-col items-center justify-evenly border-[#fa9274] border-solid border-spacing-10 border-4 p-10 mt-24 sm:p-2 m-20 md:m-14 sm:m-2 sm:border-2" id="about">
+        <section
+          className="flex sm:flex-col items-center justify-evenly border-[#fa9274] border-solid border-spacing-10 border-4 p-10 mt-24 sm:p-0 m-20 md:m-14 sm:m-4 sm:border-2"
+          id="about"
+        >
           <div className="sm:hidden">
             <img
               src={Geek}
@@ -132,9 +135,7 @@ function App() {
               className="w-96 sm:w-80"
             />
           </div>
-          <div
-            className="flex flex-col items-center justify-center w-96 ml-5 sm:mt-0 sm:w-80"
-          >
+          <div className="flex flex-col items-center justify-center w-96 ml-5 sm:m-0 sm:w-80">
             <h1 className="h1-aboutMy text-2xl text-[#fa9272] mt-5">
               Um pouco sobre mim...
             </h1>
@@ -164,33 +165,35 @@ function App() {
           className="flex flex-col items-center justify-center"
           id="project"
         >
-          <h1 className="text-2xl text-[#fa9274] h1-projectsMy mb-10">
+          <h1 className="text-2xl text-[#fa9274] h1-projectsMy mt-10 mb-4">
             Meus projetos 💻💡
           </h1>
-          <div className="flex items-center justify-center z-10 transition ease-in-out duration-3000  divCard">
-            <div className="hover:bg-[#eebcae] hover:transition hover:duration-2000 hover:ease-in-out transition duration-2000 ease-in-out rounded-3xl w-full h-min cursor-pointer flex items-center justify-center divBackground">
-              <img
-                src="./images/projetoClima.png"
-                className="w-80 h-4/5 object-cover z-10 m-2 hover:opacity-0 hover:transition hover:duration-2000 hover:ease-in-out rounded-3xl transition duration-2000 ease-in-out imgProjeto"
-                alt="Imagem de um projeto realizado pela Lucimara"
-              />
-              <div className="flex flex-col opacity-0 absolute text-center transition ease-in-out duration-3000 divDescription">
+          <div className="flex items-center justify-center divCard relative z-10 ">
+            <img
+              src="./images/projetoClima.png"
+              className="w-80 h-4/5 object-cover m-2 rounded-3xl imgProject "
+              alt="Imagem de um projeto realizado pela Lucimara"
+            />
+            <div className=" w-80 h-full m-2 hidden absolute rounded-3xl cursor-pointer items-center justify-center divBackground">
+              <div className=" flex-col text-center transition  duration-3000 divDescription hidden ">
                 <h1 className="text-2xl h1-Project">☀️ inWeather</h1>
                 <p className="text-md w-60 mt-8 p-Project">
                   Layout desenvolvido no AdobeXD. feito em HTML, SASS e
                   JavaScript. Mostra a data, o país da cidade e as informações
                   climáticas do momento.
                 </p>
-                <a href="https://github.com/LucimaraSouzah/weatherProject">
-                  <button className="bg-[#fa9272] p-3 rounded-3xl text-black hover:bg-[#ee7955] hover:text-stone-100 mt-10 button-contact">
-                    Repositório
-                  </button>
-                </a>
-                <a href="https://lucimarasouzah.github.io/weatherProject/">
-                  <button className="bg-[#fa9272] p-3 rounded-3xl text-black hover:bg-[#ee7955] hover:text-stone-100 mt-5 button-contact">
-                    Aplicação
-                  </button>
-                </a>
+                <div className="flex flex-col">
+                  <a href="https://github.com/LucimaraSouzah/weatherProject">
+                    <button className="bg-[#fa9272] p-3 rounded-3xl text-black hover:bg-[#ee7955] hover:text-stone-100 mt-10 button-contact link-Project">
+                      Repositório
+                    </button>
+                  </a>
+                  <a href="https://lucimarasouzah.github.io/weatherProject/">
+                    <button className="bg-[#fa9272] p-3 rounded-3xl text-black hover:bg-[#ee7955] hover:text-stone-100 mt-5 button-contact link-Project">
+                      Aplicação
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
