@@ -1,7 +1,7 @@
 import Button from "./Button";
 import "../../App.css";
 
-const ProjectCard = ({ image, title, description, linkRepo, linkApp }) => {
+const ProjectCard = ({ image, title, description, linkRepo, linkApp }:{image:string; title:string, description:string, linkRepo:string, linkApp:string}) => {
   return (
       <div className="flex items-center justify-center divCard relative z-10 h-4/5">
         <img
