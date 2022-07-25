@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Great+Vibes&family=Ibarra+Real+Nova:wght@500&family=Karma:wght@300;500;700&family=Source+Code+Pro:wght@500&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -30,10 +34,6 @@ li:hover:after {
   display: block;
 }
 
-/* .disabled {
-  opacity: 0;
-} */
-
 .h3-introdution {
   font-family: "Karma", serif;
 }
@@ -63,7 +63,7 @@ li:hover:after {
   display: inline-flex !important;
   padding: 60px 40px;
   background-color: rgb(0, 0, 0, 0.95);
-  position: absolute; 
+  position: absolute;
   right: 0;
   top: 0;
   height: 100%;
@@ -73,7 +73,6 @@ li:hover:after {
   flex-direction: column;
   gap: 20px;
 }
-
 
 .openNavLi {
   z-index: 1;
@@ -86,4 +85,28 @@ li:hover:after {
 
 .h1-aboutMy {
   font-family: "Karma", serif;
+}
+
+.h1-projectsMy {
+  font-family: "Karma", serif;
+}
+
+.divCard:hover .divDescription {
+  opacity: 1;
+  transition: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.imgProjeto:hover .divDescription {
+  opacity: 1;
+  transition: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.h1-Project {
+  font-family: "Karma", serif;
+}
+
+.p-Project {
+  font-family: "Comfortaa", cursive;
 }
