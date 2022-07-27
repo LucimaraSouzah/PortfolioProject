@@ -1,5 +1,4 @@
 import Button from "./Button";
-import "../../App.css";
 
 const ProjectCard = ({ image, title, description, linkRepo, linkApp }:{image:string; title:string, description:string, linkRepo:string, linkApp:string}) => {
   return (

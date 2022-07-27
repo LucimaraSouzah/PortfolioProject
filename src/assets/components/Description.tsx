@@ -1,4 +1,3 @@
-import "../../App.css";
 import Geek from "../geek.png";
 import Curriculo from "../download/curriculo.pdf";
 import Button from "../components/Button";
@@ -6,7 +5,7 @@ import Button from "../components/Button";
 const Description = () => {
   return (
     <section
-      className="flex sm:flex-col items-center justify-evenly border-[#fa9274] border-solid border-spacing-10 border-4 p-10 mt-24 sm:p-0 lg:mb-2 m-20 md:m-14 sm:m-4 sm:border-2"
+      className="flex sm:flex-col items-center justify-evenly border-[#fa9274] border-solid border-spacing-10 border-4 p-10 mt-24 sm:p-0 lg:mb-2 m-20 md:m-14 sm:m-4 sm:border-2 sm:w-96 sm:items-center"
       id="about"
     >
       <div className="sm:hidden">

@@ -113,5 +113,18 @@ li:hover:after {
   font-family: "Comfortaa", cursive;
 }
 
+.divBallBlue {
+  background-color: rgba(55, 165, 230, 0.63)
+}
 
+.divBallPurple {
+  background-color: rgba(216, 59, 182, 0.527)
+}
 
+.divBallRed{
+  background-color: rgba(221, 68, 68, 0.774)
+}
+
+.h1-Skills {
+  font-family: "Karma", serif;
+}

@@ -1,4 +1,3 @@
-import "../../App.css";
 import Logo from "../logo.svg";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -73,7 +72,7 @@ const Navigation = () => {
               Projetos
             </li>
           </a>
-          <a href="#">
+          <a href="#skills">
             <li
               className={`${isActive ? "" : "disabled"} ${
                 openNav ? "openNavLi" : ""
