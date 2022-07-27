@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-[#fa9274] flex items-center justify-center">
-              <img src="images/email.svg" className="w-5 h-5 object-contain" />
+              <img src="images/telephone.svg" className="w-5 h-5 object-contain" />
             </div>
             <a
               href="tel:+5531995729646"
@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-[#fa9274] flex items-center justify-center">
               <img
-                src="images/telephone.svg"
+                src="images/email.svg"
                 className="w-5 h-5 object-contain"
               />
             </div>
