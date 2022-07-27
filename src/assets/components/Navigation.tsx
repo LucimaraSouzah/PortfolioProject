@@ -81,7 +81,7 @@ const Navigation = () => {
               Habilidades e Ferramentas
             </li>
           </a>
-          <a href="#">
+          <a href="#contact">
             <li
               className={`${isActive ? "" : "disabled"} ${
                 openNav ? "openNavLi" : ""

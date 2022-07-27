@@ -1,5 +1,5 @@
 import "../../App.css";
-import MyPhoto from "../myNew.png";
+import MyPhoto from "../myNew.jpeg";
 import Button from "./Button";
 
 const Home = () => {

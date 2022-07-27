@@ -8,7 +8,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #212121;
+  background-color: #262626;
 }
 
 li {
@@ -34,21 +34,15 @@ li:hover:after {
   display: block;
 }
 
-.h3-introdution {
-  font-family: "Karma", serif;
-}
 
 .h1-name {
   font-family: "Great Vibes", cursive;
 }
 
-.p-description {
+.p-description, .button-contact, .p-Project, .p-DescriptionContact{
   font-family: "Comfortaa", cursive;
 }
 
-.button-contact {
-  font-family: "Comfortaa", cursive;
-}
 
 .openNav {
   width: 100%;
@@ -83,13 +77,10 @@ li:hover:after {
   opacity: 0;
 }
 
-.h1-aboutMy {
+.h1-aboutMy, .h1-projectsMy, .h3-introdution, .h1-Project, .h1-Skills, .inputFocus, .inputFocus::placeholder{
   font-family: "Karma", serif;
 }
 
-.h1-projectsMy {
-  font-family: "Karma", serif;
-}
 
 .divCard:hover .divBackground {
   display: flex;
@@ -105,14 +96,6 @@ li:hover:after {
   display: flex;
 }
 
-.h1-Project {
-  font-family: "Karma", serif;
-}
-
-.p-Project {
-  font-family: "Comfortaa", cursive;
-}
-
 .divBallBlue {
   background-color: rgba(55, 165, 230, 0.63)
 }
@@ -125,6 +108,3 @@ li:hover:after {
   background-color: rgba(221, 68, 68, 0.774)
 }
 
-.h1-Skills {
-  font-family: "Karma", serif;
-}

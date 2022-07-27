@@ -4,7 +4,7 @@ const Skills = () => {
       <h1 className="text-2xl text-[#fa9274] h1-projectsMy mb-4">
         Habilidades e Ferramentas
       </h1>
-      <div className="flex flex-wrap gap-10 items-center justify-center mb-20 sm:gap-5">
+      <div className="flex flex-wrap gap-10 items-center justify-center mb-10 sm:gap-5">
         <div className="shadow-[#141414] shadow-lg w-80 h-80 p-10 flex flex-col items-center justify-center rounded-2xl hover:shadow-[#000]">
           <div className="w-20 h-20 rounded-full flex items-center justify-center divBallBlue">
             <img src="/images/development.svg" className="w-10 h-10" />
@@ -12,7 +12,7 @@ const Skills = () => {
           <h1 className="text-gray-200 text-lg m-5 h1-Skills">
             Tenho experiência
           </h1>
-          <div className="flex flex-wrap gap-2 h-20">
+          <div className="flex flex-wrap gap-2 h-20 justify-center">
             <img
               className="w-10 h-10 object-contain"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -62,7 +62,7 @@ const Skills = () => {
           <h1 className="text-gray-200 text-xl m-5 h1-Skills">
             Estou estudando
           </h1>
-          <div className="flex flex-wrap gap-2 h-20">
+          <div className="flex flex-wrap gap-2 h-20 justify-center">
             <img
               className="w-10 h-10 object-contain"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
@@ -92,7 +92,7 @@ const Skills = () => {
           <h1 className="text-gray-200 text-xl m-5 h1-Skills">
             Tenho interesse
           </h1>
-          <div className="flex flex-wrap gap-2 h-20">
+          <div className="flex flex-wrap gap-2 h-20 justify-center">
             <img
               className="w-10 h-10 object-contain"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
