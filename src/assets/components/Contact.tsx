@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
         </div>     
           <form
-            className="flex flex-col gap-5 items-center w-80"
+            className="flex flex-col gap-5 items-center lg:w-max w-80 justify-center"
             method="POST"
             action="https://formsubmit.co/lucimarasouzah@gmail.com"
           >
@@ -60,7 +60,7 @@ const Contact = () => {
               className="p-2 pl-5 rounded-3xl w-full bg-[#262626] border-[#ffff] border text-[#fff] focus:border-[#fa9274] outline-none inputForm"
               required
             />
-            <div className="flex gap-5 w-80 sm:flex-col">
+            <div className="flex gap-5 w-80 sm:flex-col md:flex-col lg:w-full">
               <input
                 name="email"
                 type="email"

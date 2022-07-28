@@ -16,7 +16,7 @@ const Home = () => {
               Dev. FullStack na Avanade Brasil 🧡🚀
             </p>
           </a>
-          <Button text="Entre em contato" />
+          <a href="#contact"><Button text="Entre em contato" /></a>
         </div>
       </div>
       <img
