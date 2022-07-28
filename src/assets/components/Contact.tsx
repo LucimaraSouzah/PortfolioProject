@@ -6,7 +6,7 @@ const Contact = () => {
         Estou disponível para trabalhar em seus projetos e dar vida às suas
         ideias. Estou a um clique de distância.
       </p>
-      <div className="flex flex-col justify-center items-center w-full lg:flex-row lg:justify-evenly mb-10">
+      <div className="flex flex-col justify-center items-center w-4/5 lg:flex-row lg:justify-evenly mb-10 gap-5">
         <div className="flex gap-5 flex-col mb-10">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-[#fa9274] flex items-center justify-center">
