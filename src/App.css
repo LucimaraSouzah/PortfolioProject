@@ -34,15 +34,16 @@ li:hover:after {
   display: block;
 }
 
-
 .h1-name {
   font-family: "Great Vibes", cursive;
 }
 
-.p-description, .button-contact, .p-Project, .p-DescriptionContact{
+.p-description,
+.button-contact,
+.p-Project,
+.p-DescriptionContact {
   font-family: "Comfortaa", cursive;
 }
-
 
 .openNav {
   width: 100%;
@@ -77,15 +78,19 @@ li:hover:after {
   opacity: 0;
 }
 
-.h1-aboutMy, .h1-projectsMy, .h3-introdution, .h1-Project, .h1-Skills, .inputFocus, .inputFocus::placeholder{
+.h1-aboutMy,
+.h1-projectsMy,
+.h3-introdution,
+.h1-Project,
+.h1-Skills,
+.inputFocus,
+.inputFocus::placeholder {
   font-family: "Karma", serif;
 }
-
 
 .divCard:hover .divBackground {
   display: flex;
   background-color: #eebcae;
-
 }
 
 .divBackground:hover .imgProject {
@@ -97,14 +102,80 @@ li:hover:after {
 }
 
 .divBallBlue {
-  background-color: rgba(55, 165, 230, 0.63)
+  background-color: rgba(55, 165, 230, 0.63);
 }
 
 .divBallPurple {
-  background-color: rgba(216, 59, 182, 0.527)
+  background-color: rgba(216, 59, 182, 0.527);
 }
 
-.divBallRed{
-  background-color: rgba(221, 68, 68, 0.774)
+.divBallRed {
+  background-color: rgba(221, 68, 68, 0.774);
+}
+
+
+@keyframes carousel {
+  0% {
+    margin-left: 0;
+  }
+  15% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -100%;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  30% {
+    margin-left: -200%;
+  }
+  35% {
+    margin-left: -200%;
+  }
+  40% {
+    margin-left: -300%;
+  }
+  45% {
+    margin-left: -300%;
+  }
+  50% {
+    margin-left: -400%;
+  }
+  55% {
+    margin-left: -400%;
+  }
+  60% {
+    margin-left: -500%;
+  }
+  65% {
+    margin-left: -500%;
+  }
+  70% {
+    margin-left: -600%;
+  }
+  75% {
+    margin-left: -600%;
+  }
+  80% {
+    margin-left: -700%;
+  }
+  85% {
+    margin-left: -700%;
+  }
+  90% {
+    margin-left: -800%;
+  }
+  100% {
+    margin-left: -800%;
+  }
+}
+
+.galery .photos {
+  width: 500%;
+  display: flex;
+  animation-name: carousel;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
 
