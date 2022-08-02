@@ -118,56 +118,44 @@ li:hover:after {
   0% {
     margin-left: 0;
   }
-  15% {
+  10% {
     margin-left: 0;
   }
-  20% {
-    margin-left: -100%;
-  }
-  25% {
+  15% {
     margin-left: -100%;
   }
   30% {
-    margin-left: -200%;
-  }
-  35% {
-    margin-left: -200%;
+    margin-left: -100%;
   }
   40% {
-    margin-left: -300%;
+    margin-left: -200%;
   }
   45% {
-    margin-left: -300%;
+    margin-left: -200%;
   }
   50% {
-    margin-left: -400%;
+    margin-left: -300%;
   }
   55% {
-    margin-left: -400%;
+    margin-left: -300%;
   }
   60% {
-    margin-left: -500%;
-  }
-  65% {
-    margin-left: -500%;
-  }
-  70% {
-    margin-left: -600%;
+    margin-left: -400%;
   }
   75% {
-    margin-left: -600%;
+    margin-left: -400%;
   }
   80% {
-    margin-left: -700%;
+    margin-left: -500%;
   }
   85% {
-    margin-left: -700%;
+    margin-left: -500%;
   }
   90% {
-    margin-left: -800%;
+    margin-left: -600%;
   }
   100% {
-    margin-left: -800%;
+    margin-left: -600%;
   }
 }
 
@@ -175,7 +163,7 @@ li:hover:after {
   width: 500%;
   display: flex;
   animation-name: carousel;
-  animation-duration: 30s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
 }
 

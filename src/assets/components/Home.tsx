@@ -6,8 +6,6 @@ import MyPhoto4 from "../my4.jpeg";
 import MyPhoto5 from "../my5.jpeg";
 import MyPhoto6 from "../my6.jpeg";
 import MyPhoto7 from "../my7.jpeg";
-import MyPhoto8 from "../my8.jpeg";
-import MyPhoto9 from "../my9.jpeg";
 import Button from "./Button";
 
 const Home = () => {
@@ -29,57 +27,42 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <section className="flex flex-col justify-center rounded-3xl w-80 overflow-hidden sm:my-10 galery">
-        <div className="flex photos">
+      <section className="flex flex-col justify-center rounded-3xl w-96 overflow-hidden sm:my-10 galery sm:rounded-full">
+        <div className="flex photos sm:rounded-full">
         <img
           src={MyPhoto}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
         <img
           src={MyPhoto2}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
         <img
           src={MyPhoto3}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
         <img
           src={MyPhoto4}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
          <img
           src={MyPhoto5}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
          <img
           src={MyPhoto6}
           alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
          <img
           src={MyPhoto7}
           alt="Foto da Lucimara"
-          className="w-80"
-        />
-         <img
-          src={MyPhoto8}
-          alt="Foto da Lucimara"
-          className="w-80"
-        />
-         <img
-          src={MyPhoto9}
-          alt="Foto da Lucimara"
-          className="w-80"
-        />
-         <img
-          src={MyPhoto}
-          alt="Foto da Lucimara"
-          className="w-80"
+          className="w-96 object-cover"
         />
         </div>
       </section>
