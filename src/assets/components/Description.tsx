@@ -20,7 +20,7 @@ const Description = () => {
           Um pouco sobre mim...
         </h1>
         <p className="text-gray-300 text-lg text-justify">
-          Meu nome é Lucimara, tenho 19 anos e sou do interior de Minas Gerais.
+          Meu nome é Lucimara, tenho 20 anos e sou do interior de Minas Gerais.
           O entusiasmo que tenho diariamente para programar é devido aos
           desafios que encontro e ao universo de conteúdos existentes que posso
           aprender. Pois sempre busco alcançar o melhor resultado em cada
