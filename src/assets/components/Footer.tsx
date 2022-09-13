@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="flex justify-evenly items-center bg-[#212121] sm:flex-col sm:gap-5 pb-2">
       <img src={Logo} alt="Logo" className="w-12 mt-5" />
-      <p className="text-gray-200">© Copyright 2021. All right reserved</p>
+      <p className="text-gray-200">© Copyright 2022. All right reserved</p>
       <div className="flex gap-2">
         <a href="https://www.instagram.com/lucimarasouza8/">
           <AiOutlineInstagram className="w-8 h-8  object-fill fill-white rounded-full cursor-pointer" />
